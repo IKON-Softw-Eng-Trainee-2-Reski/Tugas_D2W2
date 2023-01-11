@@ -1,0 +1,511 @@
+{
+	"info": {
+		"_postman_id": "1855f1ac-fa8c-430a-af13-6c1e6fa49114",
+		"name": "IntroAPI",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21893722"
+	},
+	"item": [
+		{
+			"name": "NewsAPI",
+			"item": [
+				{
+					"name": "Get_All_News",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://newsapi.org/v2/everything?q=news&apiKey=fc822f491fd845a8ad43a0ae96e1700a",
+							"protocol": "https",
+							"host": [
+								"newsapi",
+								"org"
+							],
+							"path": [
+								"v2",
+								"everything"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "news"
+								},
+								{
+									"key": "apiKey",
+									"value": "fc822f491fd845a8ad43a0ae96e1700a"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get_News_MachineLearning",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://newsapi.org/v2/everything?q=Machine Learning&sortBy=popularity&apiKey=fc822f491fd845a8ad43a0ae96e1700a",
+							"protocol": "https",
+							"host": [
+								"newsapi",
+								"org"
+							],
+							"path": [
+								"v2",
+								"everything"
+							],
+							"query": [
+								{
+									"key": "q",
+									"value": "Machine Learning"
+								},
+								{
+									"key": "sortBy",
+									"value": "popularity"
+								},
+								{
+									"key": "apiKey",
+									"value": "fc822f491fd845a8ad43a0ae96e1700a"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get_New_onlyfrom_Wired",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://newsapi.org/v2/everything?domains=wired.com&apiKey=fc822f491fd845a8ad43a0ae96e1700a",
+							"protocol": "https",
+							"host": [
+								"newsapi",
+								"org"
+							],
+							"path": [
+								"v2",
+								"everything"
+							],
+							"query": [
+								{
+									"key": "domains",
+									"value": "wired.com"
+								},
+								{
+									"key": "apiKey",
+									"value": "fc822f491fd845a8ad43a0ae96e1700a"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get_News_CategoryIT_LanguageEnglish",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://newsapi.org/v2/top-headlines/sources?category=technology&apiKey=fc822f491fd845a8ad43a0ae96e1700a&language=en",
+							"protocol": "https",
+							"host": [
+								"newsapi",
+								"org"
+							],
+							"path": [
+								"v2",
+								"top-headlines",
+								"sources"
+							],
+							"query": [
+								{
+									"key": "category",
+									"value": "technology"
+								},
+								{
+									"key": "apiKey",
+									"value": "fc822f491fd845a8ad43a0ae96e1700a"
+								},
+								{
+									"key": "language",
+									"value": "en"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get_News_SourceOnlyFromAustralia",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://newsapi.org/v2/top-headlines/sources?country=au&apiKey=fc822f491fd845a8ad43a0ae96e1700a",
+							"protocol": "https",
+							"host": [
+								"newsapi",
+								"org"
+							],
+							"path": [
+								"v2",
+								"top-headlines",
+								"sources"
+							],
+							"query": [
+								{
+									"key": "country",
+									"value": "au",
+									"description": "Australia"
+								},
+								{
+									"key": "apiKey",
+									"value": "fc822f491fd845a8ad43a0ae96e1700a"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "SWAPI",
+			"item": [
+				{
+					"name": "link",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								""
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get_Starship_number10",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/starships/10",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships",
+								"10"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get_Film_number2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/films/2",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"films",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get_People_LeilaOrgana",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/people/?search=Leia Organa",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"people",
+								""
+							],
+							"query": [
+								{
+									"key": "search",
+									"value": "Leia Organa"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get_Starship_modelCR90",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/starships/?search=CR90",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"starships",
+								""
+							],
+							"query": [
+								{
+									"key": "search",
+									"value": "CR90"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get_Species_Human",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/species/?search=human",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"species",
+								""
+							],
+							"query": [
+								{
+									"key": "search",
+									"value": "human"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get_Planet_Hoth",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/planets/?search=Hoth",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"planets",
+								""
+							],
+							"query": [
+								{
+									"key": "search",
+									"value": "Hoth"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get_Vehicle_model_T-16skyhopper",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://swapi.dev/api/vehicles/?search= T-16 skyhopper",
+							"protocol": "https",
+							"host": [
+								"swapi",
+								"dev"
+							],
+							"path": [
+								"api",
+								"vehicles",
+								""
+							],
+							"query": [
+								{
+									"key": "search",
+									"value": " T-16 skyhopper"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Sepulsa",
+			"item": [
+				{
+					"name": "Get_User",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0/user/1",
+							"protocol": "https",
+							"host": [
+								"virtserver",
+								"swaggerhub",
+								"com"
+							],
+							"path": [
+								"sepulsa",
+								"RentABook-API",
+								"1.0.0",
+								"user",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get_Book",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE1NDkwMDg0NjksIm5iZiI6MTU0OTAwODQ2OSwianRpIjoiODYyMDNkMGMtZDNkOS00NGFjLWFmYjMtMjA5MjIwNWNmYmIzIiwiZXhwIjoxNTQ5MDk0ODY5LCJpZGVudGl0eSI6ImFsdGFyZXN0IiwiZnJlc2giOmZhbHNlLCJ0eXBlIjoiYWNjZXNzIn0.TxuKpwggKLvLe1cv_6N0ktslk5uLT6FkwbMz3Lt2dKc\"",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0/book",
+							"protocol": "https",
+							"host": [
+								"virtserver",
+								"swaggerhub",
+								"com"
+							],
+							"path": [
+								"sepulsa",
+								"RentABook-API",
+								"1.0.0",
+								"book"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Get_Rent",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0/rent",
+							"protocol": "https",
+							"host": [
+								"virtserver",
+								"swaggerhub",
+								"com"
+							],
+							"path": [
+								"sepulsa",
+								"RentABook-API",
+								"1.0.0",
+								"rent"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Put_Rent_405",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0/rent/1234",
+							"protocol": "https",
+							"host": [
+								"virtserver",
+								"swaggerhub",
+								"com"
+							],
+							"path": [
+								"sepulsa",
+								"RentABook-API",
+								"1.0.0",
+								"rent",
+								"1234"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Delete_Rent_405",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "https://virtserver.swaggerhub.com/sepulsa/RentABook-API/1.0.0/rent/1234",
+							"protocol": "https",
+							"host": [
+								"virtserver",
+								"swaggerhub",
+								"com"
+							],
+							"path": [
+								"sepulsa",
+								"RentABook-API",
+								"1.0.0",
+								"rent",
+								"1234"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
